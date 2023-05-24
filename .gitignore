@@ -1,0 +1,32 @@
+# OS X
+.DS_Store*
+._*
+
+coverage
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+*.log
+*.gz
+
+# Structure
+build
+dist
+dev
+.env
+
+.cache
+.config
+.export
+.ash_history
+.gcloud-mock
+junit.xml
