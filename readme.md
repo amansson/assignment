@@ -1,7 +1,8 @@
 # Instructions
 
-## Intial setup
-Follow this <link> to clone the boiler plate code.  
+## Initial setup
+Clone this repo for the boiler plate code.  
+
 Install `npm install`  
 To start `npm run dev`
 
