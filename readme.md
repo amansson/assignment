@@ -25,4 +25,4 @@ A user should be able to provide a zip code and be presented with the delivery o
 
 
 ## Time estimate
-About 2-3 hours depending on your experience, don't worry if it takes more or less time.
+About 2-4 hours depending on your experience, don't worry if it takes more or less time.
