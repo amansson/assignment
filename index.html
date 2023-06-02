@@ -1,14 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Insert your code here -->
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Assignment</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="form">
+				<div class="form-top">
+					<span>Find delivery options available for your order by entering the zipcode</span>
+				</div>
+				<div class="form-content">
+					<div class="input-wrapper">
+						<label for="zipcode" class="input-label">Zipcode</label>
+						<input id="zipcode" class="input zipcode" type="text" placeholder="Example: 25060" data-ng-pattern="/^[0-9]{1,5}$/"/>
+					<p for="zipcode" class="error"></p>
+					</div>
+					<button class="submit-button" id="submit-button" disabled>Submit</button>
+				</div>
+			</div>
+			<div class="loading">
+				<span class="loader"></span>
+				<span>Finding Zipcode information . . .</span>
+			</div>
+			<div class="result">
+				<div class="title-wrapper">
+					<span class="result-title"></span>
+				</div>
+				<div class="availability">
+					<span class="status"></span>
+				</div>
+				<p>Click <span class="link">Here</span> to search another zipcode</p>
+			</div>
+		</div>
+		<script type="module" src="./src/main.js"></script>
+	</body>
 </html>
