@@ -1,0 +1,107 @@
+[
+    {
+        "code": 25002,
+        "availability": [
+            {
+                "location": "online",
+                "quantity": 100
+            },
+            {
+                "location": "store",
+                "quantity": 50
+            }
+        ]
+    },
+    {
+        "code": 25003,
+        "availability": [
+            {
+                "location": "online",
+                "quantity": 40
+            },
+            {
+                "location": "store",
+                "quantity": 10
+            }
+        ]
+    },
+    {
+        "code": 25543,
+        "availability": [
+            {
+                "location": "store",
+                "quantity": 6
+            }
+        ]
+    },
+    {
+        "code": 15059,
+        "availability": [
+            {
+                "location": "online",
+                "quantity": 40
+            }
+        ]
+    },
+    {
+        "code": 45009,
+        "availability": []
+    },
+    {
+        "code": 32005,
+        "availability": [
+            {
+                "location": "online",
+                "quantity": 85
+            },
+            {
+                "location": "store",
+                "quantity": 12
+            }
+        ]
+    },
+    {
+        "code": 98021,
+        "availability": [
+            {
+                "location": "online",
+                "quantity": 65
+            },
+            {
+                "location": "store",
+                "quantity": 30
+            }
+        ]
+    },
+    {
+        "code": 70590,
+        "availability": [
+            {
+                "location": "online",
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "code": 90210,
+        "availability": [
+            {
+                "location": "store",
+                "quantity": 3
+            }
+        ]
+    },
+    {
+        "code": 10001,
+        "availability": [
+            {
+                "location": "online",
+                "quantity": 35
+            },
+            {
+                "location": "store",
+                "quantity": 7
+            }
+        ]
+    }
+]

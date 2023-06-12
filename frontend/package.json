@@ -1,8 +1,7 @@
 {
-  "name": "assignment",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "## Intial setup Follow this <link> to clone the boiler plate code.",
-  "main": "main.js",
+  "description": "Assignment frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
