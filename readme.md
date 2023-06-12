@@ -25,6 +25,10 @@ Candidates will be evaluated on:
 3. **User Interface:** Is the interface user-friendly and intuitive? Are the messages displayed appropriately, including the low inventory warning?
 4. **Error Handling:** How does the application handle potential issues such as network errors when fetching the data?
 
+## Done
+
+When finished create a Pull Request to the main branch.
+
 ## Additional Consideration
 
 Try to spend between 2-4 hours, don't worry should you not finish every task.
