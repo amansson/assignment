@@ -12,7 +12,7 @@ The main goal of this task is to develop a frontend web application that fetches
 
 2. **Fetch and Parse Data:** Implement a function that fetches the JSON data from the local backend server `http://localhost:4000/api/(zipcodes|messages).json` and parses it into a suitable format for the frontend.
 
-3. **Search Function:** Implement a search function that allows users to enter a zip code. The application should display relevant availability information or a message if no matching zip code is found.
+3. **Search Function:** Implement a search function with input validation. Users should enter a five-digit number representing a zip code. Display appropriate error messages for invalid inputs. Show availability information for valid, matching zip codes, or a "Not Available in your region" message otherwise.
 
 4. **Display Data and Warnings:** Based on the user's search query, display the appropriate message(s) from the messages api call. If the searched zip code is found in the zipcodes data, display the relevant availability message(s) for each location ("Available online", "Available in store"). If the quantity of a certain location falls below a certain threshold (e.g., 10), display the "Low inventory" warning. If the zip code is not found or has no availability, display the "Not Available in your region" message.
 
@@ -25,7 +25,7 @@ Candidates will be evaluated on:
 3. **User Interface:** Is the interface user-friendly and intuitive? Are the messages displayed appropriately, including the low inventory warning?
 4. **Error Handling:** How does the application handle potential issues such as network errors when fetching the data?
 
-## Done
+## Submission
 
 When finished create a Pull Request to the main branch.
 
